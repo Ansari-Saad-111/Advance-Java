@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+          
+<struts-config>
+
+	<!-- =========================================== Action Mapping Definitions -->
+	
+    <form-beans>
+		<form-bean name="user" type="com.struts.bean.User" />
+	</form-beans>
+
+
+	<action-mappings>
+	
+		<action path="/Login" type="com.struts.action.LoginWithDatabase"
+		scope="request" name="user">
+		
+
+			<forward name="success" path="/success.jsp" />
+			<forward name="failure" path="/failure.jsp" />
+
+		</action>
+		
+		<action path="/Insert" type="com.struts.action.InsertAction"
+		scope="request" name="user">
+			<forward name="success" path="/Login.jsp" />
+		</action>
+					
+	</action-mappings>
+
+</struts-config>
+

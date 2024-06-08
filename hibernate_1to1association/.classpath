@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/derbyclient.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/slf4j-api-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/javasoftware/Framework/hibernateJarFiles/slf4j-simple-1.5.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
